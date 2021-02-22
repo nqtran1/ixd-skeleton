@@ -27,6 +27,18 @@
 }
 
   /* On mouse-over */
-.btnhelp:hover {background: rgb(236, 196, 150);}
-.btnmsg:hover {background: rgb(236, 196, 150);}
+.btnhelp:hover {background: #eee;}
+.btnmsg:hover {background: #eee;}
+
+.btn {
+  border: none; /* Remove borders */
+  color: gray; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  padding-top: 50px;
+  float: center;
+}
+
+.myrecipes {background-color: peachpuff;} /* Green */
+.myrecipes:hover {background-color: peachpuff;}
 
