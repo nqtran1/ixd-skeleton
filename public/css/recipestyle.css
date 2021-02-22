@@ -9,4 +9,12 @@
 
 .recipe1 {
   background-color: peachpuff;
+  text-align:center; 
+  height: 50px;
+}
+
+.description {
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
 }
