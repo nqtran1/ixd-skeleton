@@ -35,6 +35,7 @@ body { margin:0px; }
 
 .block {
   width: 350px;
+  border-radius: 25px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
