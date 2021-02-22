@@ -1,5 +1,7 @@
 .myrecipes {
     padding:15px;
+    margin-left: 20px;
+    margin-top: 5px
 }
 
 .big_container {
@@ -8,6 +10,18 @@
 }
 
 body { margin:0px; }
+
+.button {
+  background-color: peachpuff;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  size: 5x;
+  margin: 4px 2px;
+}
 
 .navbar {
   background-color: orange;
