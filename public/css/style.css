@@ -82,8 +82,10 @@ body { margin:0px; }
   font-size: 30px;
   cursor: pointer;
   display: inline-block;
+  margin: 0 auto;
   color: white;
-  float: center;
+  text-align: center;
+
 }
 .btnprofile {
   border: none;
