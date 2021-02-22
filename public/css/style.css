@@ -75,6 +75,19 @@ body { margin:0px; }
   float: left;
 }
 
+
+.btnback {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: left;
+}
+
 .btnadd {
   border: none;
   size: 9x;
@@ -84,6 +97,7 @@ body { margin:0px; }
   cursor: pointer;
   display: inline-block;
   color: white;
+  float: right;
 }
 
 .btnprofile {
