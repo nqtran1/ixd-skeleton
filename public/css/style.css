@@ -32,8 +32,9 @@
 
 .btn {
   border: none; /* Remove borders */
+  width: 60px;
   color: gray; /* Add a text color */
-  padding: 14px 28px; /* Add some padding */
+  padding: 40px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
   padding-top: 50px;
   float: center;
