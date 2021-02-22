@@ -30,16 +30,13 @@
 .btnhelp:hover {background: #eee;}
 .btnmsg:hover {background: #eee;}
 
-.btn {
-  border: none; /* Remove borders */
-  width: 60px;
-  color: gray; /* Add a text color */
-  padding: 40px 28px; /* Add some padding */
-  cursor: pointer; /* Add a pointer cursor on mouse-over */
-  padding-top: 50px;
-  float: center;
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: peachpuff;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
 }
-
-.myrecipes {background-color: peachpuff;} /* Green */
-.myrecipes:hover {background-color: peachpuff;}
-
