@@ -74,6 +74,29 @@ body { margin:0px; }
   float: left;
 }
 
+.btnadd {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: center;
+}
+.btnprofile {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: right;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
