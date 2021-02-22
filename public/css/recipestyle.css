@@ -25,7 +25,8 @@ body { margin:0px; }
 
 .addmore{
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  float: right;
 }
 
 .navbar {
