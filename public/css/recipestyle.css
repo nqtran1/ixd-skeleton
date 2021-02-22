@@ -24,8 +24,9 @@ body { margin:0px; }
 }
 
 .addmore{
-  padding: 10px;
+  padding: 35px;
   margin-bottom: 100px;
+  margin-left: 150px;
   float: right;
   position: fixed;
 }
