@@ -2,6 +2,11 @@
     padding:40px;
 }
 
+.big_container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* Container holding the image and the text */
 .container {
     position: relative;
