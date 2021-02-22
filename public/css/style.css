@@ -23,5 +23,6 @@
 }
 
   /* On mouse-over */
-.btnhelp:hover {background: #eee;}
-.btnmsg:hover {background: #eee;}
+.btnhelp:hover {background: rgb(236, 196, 150);}
+.btnmsg:hover {background: rgb(236, 196, 150);}
+
