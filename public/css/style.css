@@ -1,4 +1,4 @@
-.btn {
+.btnhelp {
     border: none;
     size: 5x;
     background-color: inherit;
@@ -6,9 +6,22 @@
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+    color: orange;
+    float: right;
   }
 
-  /* On mouse-over */
-.btn:hover {background: #eee;}
+ .btnmsg {
+    border: none;
+    size: 5x;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: orange;
+    float: left;
+}
 
-.info {color: orange;}
+  /* On mouse-over */
+.btnhelp:hover {background: #eee;}
+.btnmsg:hover {background: #eee;}
