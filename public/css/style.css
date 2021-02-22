@@ -30,15 +30,14 @@
 .btnhelp:hover {background: #eee;}
 .btnmsg:hover {background: #eee;}
 
+
+
 .block {
-  display: block;
+  display: inline-block;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
   background-color: peachpuff;
-  padding: 100px 100px;
+  padding: 30px 30px;
   font-size: 18px;
   cursor: pointer;
   text-align: center;
