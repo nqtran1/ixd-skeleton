@@ -13,6 +13,7 @@ body { margin:0px; }
 
 .button {
   background-color: peachpuff;
+  border-radius: 30px;
   border: none;
   color: white;
   padding: 20px;
@@ -26,7 +27,7 @@ body { margin:0px; }
 .addmore{
   padding: 35px;
   margin-bottom: 100px;
-  margin-left: 150px;
+  margin-left: 100px;
   float: right;
   position: fixed;
 }
