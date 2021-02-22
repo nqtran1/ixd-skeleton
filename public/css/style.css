@@ -78,7 +78,7 @@ body { margin:0px; }
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* Clear floats after image containers */
