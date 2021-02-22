@@ -8,7 +8,7 @@ body { margin:0px; }
     border: none;
     size: 9x;
     background-color: inherit;
-    padding: 14px 28px;
+    padding: 19px 28px;
     font-size: 30px;
     cursor: pointer;
     display: inline-block;
@@ -20,7 +20,7 @@ body { margin:0px; }
     border: none;
     size: 9x;
     background-color: inherit;
-    padding: 14px 28px;
+    padding: 19px 28px;
     font-size: 30px;
     cursor: pointer;
     display: inline-block;
@@ -34,7 +34,9 @@ body { margin:0px; }
 
 
 .block {
-  width: 80%;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
   float: center;
   border: none;
   background-color: peachpuff;
@@ -42,9 +44,6 @@ body { margin:0px; }
   font-size: 18px;
   cursor: pointer;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 20px;
-  margin-top: 20px;
 }
 
 .text {
