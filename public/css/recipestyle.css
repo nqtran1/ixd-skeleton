@@ -1,3 +1,7 @@
+.myrecipes {
+    padding:40px;
+}
+
 /* Container holding the image and the text */
 .container {
     position: relative;
