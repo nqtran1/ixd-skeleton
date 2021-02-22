@@ -17,8 +17,9 @@
     position: absolute;
     width: 300px;
     height: 60px;
-    bottom: 20px;
+    bottom: 30px;
     right: 20px;
+    left: 10px;
     background-color: peachpuff;
     color: white;
     padding-left: 30px;
