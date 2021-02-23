@@ -1,8 +1,8 @@
 <html>
 <head>
-	<title>Homecooked</title>
+	<title>Homecooked Login Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86">
-	<link href="/css/style.css" rel="stylesheet">
+	<link href="/css/login.css" rel="stylesheet">
 	<!-- add icon library -->
 	<script src="https://kit.fontawesome.com/4a1064862d.js" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -11,66 +11,15 @@
 
 </head>
 <body>
-	<style> body {font-family: "Lato", sans-serif;} </style>
 	<div class="container">
+	<p> This is the login screen page. </p>
+	<div class="homebutton">
+		<a href="/homepage">
+			<button class="btnhome"><i class="fas fa-home"></i></button>	
+		</a>
+	</div>
 
-		<div class="help">
-			<a href="http://www.google.com">
-				<button class="btnhelp"><i class="far fa-question-circle"></i></button>
-			</a>
-			<a href="/message">
-				<button class="btnmsg"><i class="far fa-envelope"></i></button>
-			</a>
-		</div>
+	</div>
 
-		<div class="home">
-			<h1 style="font-size:40px;color:gray;text-align:center;padding-top:80px">Welcome, {{Name}}</h1>
-		</div>
-
-		<div class="options">
-			<a href="/recipe" style="text-decoration:none;">
-				<button class="block">My Recipes</button>
-			</a>
-			<a href="/recipe" style="text-decoration:none;">
-				<button class="block">Saved Recipes</button>
-			</a>
-			<a href="/share" style="text-decoration:none;">
-				<button class="block">Share</button>
-			</a>
-
-		<div class="text">
-      		<p1 style="font-size:16px; color:gray;">You recently made...</p1>
-		</div>
-
-		<div class="row">
-			<div class="column">
-				<a href="/views/recipe.handlebars">
-				<img src="https://millersfoodmarket.com/wp-content/uploads/2020/06/Turmeric-Fried-Rice-LEAD-7-200x300-2.jpg" alt="Recents" style="width:100%" border="0">
-				</a>
-			</div>
-			<div class="column">
-				<a href="/views/recipe.handlebars">
-				<img src="https://realfoodrealdeals.com/wp-content/uploads/2014/10/chicken-chili-recipe-rfrd-1-200x300.jpg" alt="Recents" style="width:100%" border="0">
-				</a>
-			</div>
-			<div class="column">
-				<a href="/views/recipe.handlebars">
-				<img src="https://bakerbynature.com/wp-content/uploads/2013/12/IMG_5986-2-200x300.jpg" alt="Recents" style="width:100%" border="0">
-				</a>
-			</div>
-		</div>
-
- 		<div class="navbar">
-			<a href="index">
-				<button class="btnhome"><i class="fas fa-home"></i></button>	
-			</a>
-			<a href="http://www.google.com">
-				<button class="btnprofile"><i class="far fa-user"></i></button>	
-			</a>
-			<a href="http://www.google.com">
-				<button class="btnadd"><i class="far fa-plus-square"></i></button>	
-			</a>
-		</div>
-		
 </body>
 </html>
