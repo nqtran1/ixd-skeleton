@@ -5,6 +5,7 @@
 	<link href="/css/message.css" rel="stylesheet">
 	<!-- add icon library -->
 	<script src="https://kit.fontawesome.com/4a1064862d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery.js%22%3E"></script>
@@ -68,6 +69,12 @@
         <body>
 
         <p>Check who sent you a recipe.</p>
+
+        <!-- The form -->
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
 
         <div class="tab">
         <button class="tablinks" onclick="openMsg(event, 'User1')" id="defaultOpen">Blaise Z.</button>
