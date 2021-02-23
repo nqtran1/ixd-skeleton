@@ -21,7 +21,9 @@ body { margin:0px; }
   text-decoration: none;
   display: inline-block;
   size: 9x;
-  margin: 8px 2px;
+  width: 35px;
+  height: 35px;
+  margin: 18px 2px;
 }
 
 .addmore{
