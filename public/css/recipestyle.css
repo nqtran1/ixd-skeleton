@@ -20,13 +20,13 @@ body { margin:0px; }
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  size: 9x;
+  size: 11x;
   margin: 4px 2px;
 }
 
 .addmore{
   padding: 10px;
-  margin-right: 50px;
+  margin-right: 30px;
   margin-bottom: 150px;
   float: right;
 }
