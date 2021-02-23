@@ -7,6 +7,7 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .avatar {;
+    float: left;
     margin-top: 30px;
     vertical-align: middle;
     width: 50px;
