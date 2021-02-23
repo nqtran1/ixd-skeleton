@@ -83,21 +83,21 @@ img {
   }
   
   /* Style the search field */
-  form.example input[type=text] {
+  form.search input[type=text] {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid #cccccc;
     float: left;
     width: 80%;
     background: #f1f1f1;
   }
   
   /* Style the submit button */
-  form.example button {
+  form.search button {
     float: left;
     width: 20%;
     padding: 10px;
-    background: #2196F3;
+    background: #cccccc;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
@@ -105,12 +105,12 @@ img {
     cursor: pointer;
   }
   
-  form.example button:hover {
-    background: #0b7dda;
+  form.search button:hover {
+    background: #cccccc;
   }
   
   /* Clear floats */
-  form.example::after {
+  form.search::after {
     content: "";
     clear: both;
     display: table;
