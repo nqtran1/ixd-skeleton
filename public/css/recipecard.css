@@ -1,11 +1,11 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    max-height:500px
+    width: 75%;
+    height: 400px;
     margin: auto;
     text-align: center;
     font-family: "Lato", sans-serif;
-    padding: 20px;
+    padding: 30px;
   }
   
   .servings {
