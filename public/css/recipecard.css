@@ -1,4 +1,10 @@
-.avatar {
+body {font-family: "Lato", sans-serif;}
+
+.profiletab {
+    padding: 25px;
+}
+
+.avatar {;
     margin-top: 35px;
     vertical-align: middle;
     width: 50px;
