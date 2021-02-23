@@ -7,7 +7,7 @@
     border: none;
     color: white;
     padding: 10px;
-    float: left;
+    float: right;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,7 +20,7 @@
 figure {
     border: 1px #cccccc solid;
     padding: 4px;
-    margin: 4px;
+    margin: 7px;
   }
 
 img {
