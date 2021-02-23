@@ -96,6 +96,7 @@ img {
   form.search button {
     float: left;
     width: 20%;
+    height: 42px;
     padding: 10px;
     background: #cccccc;
     color: white;
