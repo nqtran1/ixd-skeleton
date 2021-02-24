@@ -1,7 +1,7 @@
 /** This file is the Login Page (index) css */
 
 .container {
-    margin: auto;
+    margin: 30px;
 }
 
 .input-container {
@@ -13,6 +13,7 @@
   
   .icon {
     padding: 10px;
+    size: 12x;
     background: orange;
     color: white;
     min-width: 50px;
