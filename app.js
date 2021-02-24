@@ -50,8 +50,6 @@ app.get('/recipecard', recipecard.view);
 app.get('/share', share.view);
 app.get('/message', message.view);
 
-app.get('/home', homepage.view);
-
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
