@@ -2,7 +2,7 @@
  * GET home page.
  */
   
-var displaynames = require('../home.json');
+//var displaynames = require('../home.json');
 
 exports.view = function(req, res){
   //console.log(displaynames);
