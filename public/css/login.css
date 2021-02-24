@@ -1,6 +1,8 @@
 /** This file is the Login Page (index) css */
 
 .container {
+    margin-top: 30px;
+    padding: 15px;
     margin: 30px;
 }
 
