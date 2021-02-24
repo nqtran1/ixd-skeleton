@@ -3,7 +3,8 @@
 	<title>Homecooked</title>
 	<meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86">
 	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-	<link href="/css/style.css" rel="stylesheet">
+	<link href="/css/instructions.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 	<!-- add icon library -->
 	<script src="https://kit.fontawesome.com/4a1064862d.js" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -13,79 +14,58 @@
 </head>
 <style>
 * {box-sizing: border-box}
-
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: white;
-  color: black;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 18px 18px;
-  font-size: 20px;
-  width: 50%;
-}
-
-.tablink:hover {
-  background-color: gray;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: black;
-  display: none;
-  padding: 80px 20px;
-  height: 100%;
-}
-
-#Ingredients {background-color: peachpuff;}
-#Steps {background-color: peachpuff;}
 </style>
 </head>
 <body>
+<div class="container">
 
-<button class="tablink" onclick="openPage('Ingredients', this, 'orange')">Ingredients</button>
-<button class="tablink" onclick="openPage('Steps', this, 'orange')" id="defaultOpen">Steps</button>
+    <button class="tablink" onclick="openPage('Ingredients', this, 'orange')">Ingredients</button>
+    <button class="tablink" onclick="openPage('Steps', this, 'orange')" id="defaultOpen">Steps</button>
 
-<div id="Ingredients" class="tabcontent">
-  <h3>Ingredients</h3>
-  <p>Some ingredients</p>
+    <div id="Ingredients" class="tabcontent">
+    <h3>Ingredients</h3>
+    <p>Some ingredients</p>
+    </div>
+
+    <div id="Steps" class="tabcontent">
+    <h3>Steps</h3>
+    <p>Step 1.</p>
+    <p>Step 2.</p>
+    <p>Step 3.</p> 
+    </div>
+
+    <script>
+    function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
 </div>
 
-<div id="Steps" class="tabcontent">
-  <h3>Steps</h3>
-  <p>Step 1.</p>
-  <p>Step 2.</p>
-  <p>Step 3.</p> 
-</div>
-
-
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-   
 </body>
+<footer class="bottom">
+    <div class="navbar">
+		<a href="/homepage">
+			<button class="btnhome"><i class="fas fa-home"></i></button>	
+		</a>
+		<a href="/profile">
+			<button class="btnprofile"><i class="far fa-user"></i></button>	
+		</a>
+		<a href="/nothinghereyet">
+			<button class="btnadd"><i class="far fa-plus-square"></i></button>	
+		</a>
+	</div>
+</footer>
 </html>
