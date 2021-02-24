@@ -4,6 +4,13 @@
 
 body { margin:0px; }
 
+.welcome {
+  font-size:40px;
+  color:gray;
+  text-align:center;
+  padding-top:80px
+}
+
 .btnhelp {
     border: none;
     size: 9x;

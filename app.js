@@ -34,6 +34,7 @@ app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
@@ -48,6 +49,8 @@ app.get('/index', index.view);
 app.get('/recipecard', recipecard.view);
 app.get('/share', share.view);
 app.get('/message', message.view);
+
+app.get('/home', homepage.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

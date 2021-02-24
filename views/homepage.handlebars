@@ -23,9 +23,11 @@
 			</a>
 		</div>
 
+		{{#each displaynames}}
 		<div class="home">
-			<h1 style="font-size:40px;color:gray;text-align:center;padding-top:80px">Welcome, {{Name}}</h1>
+			<h1 class="welcome" id="displayname">Welcome, {{displayname}}</h1>
 		</div>
+		{{/each}}
 
 		<div class="options">
 			<a href="/recipe" style="text-decoration:none;">
