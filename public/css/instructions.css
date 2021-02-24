@@ -31,7 +31,7 @@ body, html {
   .tabcontent {
     color: black;
     display: none;
-    font-size: 14px;
+    font-size: 20px;
     padding: 80px 20px;
     height: 100%;
   }
