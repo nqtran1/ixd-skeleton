@@ -7,6 +7,7 @@ body, html {
 
   ul.ingred {
     list-style-type: circle;
+    font-size: 20px;
   }
   
   /* Style tab links */
@@ -30,6 +31,7 @@ body, html {
   .tabcontent {
     color: black;
     display: none;
+    font-size: 14px;
     padding: 80px 20px;
     height: 100%;
   }
