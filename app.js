@@ -17,6 +17,7 @@ var recipecard = require('./routes/recipecard');
 var share = require('./routes/share');
 var message = require('./routes/message');
 var profile = require('./routes/profile');
+var instructions = require('./routes/instructions');
 
 var app = express();
 
@@ -51,6 +52,7 @@ app.get('/recipecard', recipecard.view);
 app.get('/share', share.view);
 app.get('/message', message.view);
 app.get('/profile', profile.view);
+app.get('/instructions', instructions.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
