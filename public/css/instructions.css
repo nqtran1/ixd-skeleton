@@ -4,6 +4,10 @@ body, html {
     margin: 0;
     font-family: Arial;
   }
+
+  ul.ingred {
+    list-style-type: circle;
+  }
   
   /* Style tab links */
   .tablink {
