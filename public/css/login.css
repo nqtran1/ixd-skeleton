@@ -6,11 +6,6 @@
     margin: 30px;
 }
 
-img {
-  max-width:100%;
-  height:auto;
-}
-
 .input-container {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -38,7 +33,7 @@ img {
   
   /* Set a style for the login button */
   .btn {
-    background-color: orange;
+    background-color: peachpuff;
     border-radius: 10px;
     color: black;
     padding: 15px 20px;
