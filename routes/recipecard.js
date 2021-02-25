@@ -2,6 +2,8 @@
  * GET recipe card page.
  */
 
+var recipeData = require('../recipes.json');
 exports.view = function(req, res){
-    res.render('recipecard');
+    console.log(recipeData);
+    res.render('recipecard', recipeData);
   };
