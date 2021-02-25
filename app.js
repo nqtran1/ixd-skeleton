@@ -19,6 +19,7 @@ var message = require('./routes/message');
 var profile = require('./routes/profile');
 var instructions = require('./routes/instructions');
 var upload = require('./routes/upload');
+var help = require('./routes/help');
 
 var app = express();
 
@@ -55,6 +56,7 @@ app.get('/message', message.view);
 app.get('/profile', profile.view);
 app.get('/instructions', instructions.view);
 app.get('/upload', upload.view);
+app.get('/help', help.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
