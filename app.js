@@ -60,6 +60,10 @@ app.get('/favorites', favorites.view);
 app.get('/upload', upload.view);
 app.get('/help', help.view);
 
+//get username from login
+// app.get('/username', username.adminView);
+// app.post('addUsername', username.addUsername);
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
