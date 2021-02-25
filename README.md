@@ -17,5 +17,8 @@ https://st.depositphotos.com/1779253/5140/v/600/depositphotos_51405259-stock-ill
 Recipe creds:
 Colleen B. Smith: https://www.allrecipes.com/recipe/11758/baked-ziti-i/
 
+Logo creds:
+Designed with Canva: https://www.canva.com/design/DAEXIIU-PHY/v6rvT1-eLJgf9n_qm0rHGA/view?utm_content=DAEXIIU-PHY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 CSS/HTML reference creds:
 w3Schools.com
