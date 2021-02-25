@@ -6,8 +6,9 @@
 	<!-- add icon library -->
 	<script src="https://kit.fontawesome.com/4a1064862d.js" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery.js%22%3E"></script>
+	
 
 </head>
 <body>
@@ -23,9 +24,11 @@
 			</a>
 		</div>
 
+		{{#each displaynames}}
 		<div class="home">
 			<h1 class="welcome">Welcome, {{displayname}}</h1>
 		</div>
+		{{/each}}
 
 		<div class="options">
 			<a href="/recipe" style="text-decoration:none;">
