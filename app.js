@@ -19,6 +19,7 @@ var message = require('./routes/message');
 var profile = require('./routes/profile');
 var instructions = require('./routes/instructions');
 var upload = require('./routes/upload');
+var favorites = require('./routes/favorites');
 var help = require('./routes/help');
 
 var app = express();
@@ -55,6 +56,7 @@ app.get('/share', share.view);
 app.get('/message', message.view);
 app.get('/profile', profile.view);
 app.get('/instructions', instructions.view);
+app.get('/favorites', favorites.view);
 app.get('/upload', upload.view);
 app.get('/help', help.view);
 
