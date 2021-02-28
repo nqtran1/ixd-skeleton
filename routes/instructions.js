@@ -3,6 +3,10 @@
  * GET instructions in recipecard page.
  */
 
+var recipeData = require('../recipes.json');
+
 exports.view = function(req, res){
-    res.render('instructions');
-  };
+  console.log(recipeData);
+  res.render('instructions', recipeData);
+
+}

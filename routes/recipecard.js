@@ -2,8 +2,8 @@
  * GET recipe card page.
  */
 
-var recipeData = require('../recipes.json');
+var msgData = require('../messages.json');
 exports.view = function(req, res){
-    console.log(recipeData);
-    res.render('recipecard', recipeData);
+    console.log(msgData);
+    res.render('recipecard', msgData);
   };
