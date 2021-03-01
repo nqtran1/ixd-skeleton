@@ -22,3 +22,5 @@ Designed with Canva: https://www.canva.com/design/DAEXIIU-PHY/v6rvT1-eLJgf9n_qm0
 
 CSS/HTML reference creds:
 w3Schools.com
+https://www.w3docs.com/learn-html/html-form-templates.html
+https://bootsnipp.com/snippets/K0ZmK
