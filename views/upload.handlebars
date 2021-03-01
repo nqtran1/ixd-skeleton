@@ -3,20 +3,66 @@
 	<title>Homecooked Upload Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86">
 	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-	<link href="/css/style.css" rel="stylesheet">
+	<link href="/css/upload.css" rel="stylesheet">
 	<!-- add icon library -->
 	<script src="https://kit.fontawesome.com/4a1064862d.js" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery.js%22%3E"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 <body>
-    <h1 style="float:left; padding: 30px;"> This will be the page that allows users upload their own recipe.</h1>
-	  <div style="padding:40px;">
-        <a href="/homepage">
-            <button class="button1"><i class="fas fa-home"></i></button>	
-        </a>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1><input type="text" name="name" placeholder="Recipe Title" /></h1>
+        </div>
+        <div class="item">
+          <p>Recipe By:</p>
+          <div class="name-item">
+            <input type="text" name="name"/>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="item">
+            <p>Servings:</p>
+            <input type="text" name="name"/>
+          </div>
+        </div>
+        <div class="item">
+          <p>Total time:</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Ingredients:</p>
+          <textarea rows="5" required></textarea>
+        </div>
+        <div class="item">
+          <p>Instructions:</p>
+          <textarea rows="5" required></textarea>
+        </div>
+        <div class="item">
+          <p>Any additional notes:</p>
+          <textarea rows="2" required></textarea>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Upload</button>
+        </div>
+      </form>
     </div>
+  </body>
+ 		<div class="navbar">
+			<a href="/homepage">
+				<button class="btnhome"><i class="fas fa-home"></i></button>	
+			</a>
+			<a href="/profile">
+				<button class="btnprofile"><i class="far fa-user"></i></button>	
+			</a>
+			<a href="/upload">
+				<button class="btnadd"><i class="far fa-plus-square"></i></button>	
+			</a>
+		</div>
 </body>
 </html>

@@ -1,0 +1,178 @@
+html, body {
+  min-height: 100%;
+  }
+  body, div, form, input, textarea, p { 
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+  }
+  h1 {
+  position: absolute;
+  margin: 0;
+  font-size: 32px;
+  color: #fff;
+  z-index: 2;
+  }
+  .testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+  }
+  form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 #ffa909; 
+  }
+  .banner {
+  position: relative;
+  height: 210px;
+  background-image: url("https://chowhound3.cbsistatic.com/resize/6834fa8f5b80f111305aea023fea967736b072d4/2017/12/fancy-restaurant-chowhound-670x447.jpg?fit=bounds&width=800");      background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4); 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+  input, textarea {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  }
+  input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  }
+  textarea {
+  width: calc(100% - 12px);
+  padding: 5px;
+  }
+  .item:hover p, input:hover::placeholder {
+  color: #ffa909;
+  }
+  .item input:hover, .item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 6px 0 #ffa909;
+  color: #ff9d09;
+  }
+  .item {
+  position: relative;
+  margin: 10px 0;
+  }
+  .btn-block {
+  margin-top: 10px;
+  text-align: center;
+  }
+  button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+  background: #ffa909;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  }
+  button:hover {
+  background: #ff9900;
+  }
+  @media (min-width: 568px) {
+  .name-item, .contact-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  .contact-item .item {
+  width: calc(50% - 8px);
+  }
+  .name-item input {
+  width: calc(50% - 20px);
+  }
+  .contact-item input {
+  width: calc(100% - 12px);
+  }
+  }
+
+.button {
+  background-color: peachpuff;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  size: 11x;
+  margin: 4px 2px;
+}
+
+.addmore{
+  padding: 10px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+  float: right;
+}
+
+.navbar {
+  background-color: orange;
+  width: 100%;
+  height: 60px;
+  border: none;
+  bottom: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed
+}
+
+.btnhome {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: left;
+}
+
+.btnadd {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: right;
+}
+
+.btnprofile {
+  border: none;
+  size: 9x;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
